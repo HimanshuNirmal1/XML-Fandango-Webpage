@@ -1,0 +1,76 @@
+title {
+    font-family: Arial;
+    background-color: black;
+    width: 1600px;
+    font-size: 20pt;
+    display: block;
+    color: white;
+    padding: 50pt;
+    border: 0px solid;
+    margin: 0px;
+    text-align: center;
+}
+screen {
+    font-family: Arial;
+    background-color: white;
+    width: 900px;
+    display: block;
+    padding: 50pt;
+    border: 0px solid red;
+    margin: 0px;
+    text-align: left;
+}
+
+movie {
+    font-family: Arial;
+    background-color: white;
+    width: 900px;
+    display: block;
+    padding: 5pt;
+    border: 0px solid;
+    margin: 0px;
+    text-align: left;
+}
+
+theatrename {
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+    display: block;
+}
+
+adrs {
+    color: black;
+    font-weight: bold;
+    font-size: 12pt;
+    display: block;
+}
+
+moviename {
+    color: black;
+    font-weight: bold;
+    font-size: 12pt;
+    display: block;
+}
+
+movierating {
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+    display: block;
+}
+
+movielength {
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+    display: block;
+}
+
+
+showtimes {
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+    display: block;
+}

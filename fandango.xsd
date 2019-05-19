@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="screens">
+<xsd:complexType>
+	<xsd:sequence>
+	<xsd:element name="title" maxOccurs = "1" type="xsd:string"  />
+		<xsd:element name="screen" maxOccurs = "unbounded" >
+		<xsd:complexType>
+			<xsd:sequence>
+			<xsd:element name="theatrename" maxOccurs = "unbounded" type="xsd:string"/>
+				<xsd:element name="adrs" maxOccurs = "unbounded" type="xsd:string"/>
+					<xsd:element name="movie" maxOccurs = "unbounded" >
+						<xsd:complexType>
+							<xsd:sequence>
+									<xsd:element name="moviename" maxOccurs = "unbounded" type="xsd:string"/>
+									<xsd:element name="movierating" maxOccurs = "unbounded" type="xsd:string"/>
+									<xsd:element name="movielength" maxOccurs = "unbounded" type="xsd:string"/>
+									<xsd:element name="showtimes" maxOccurs = "unbounded" type="xsd:string"/>
+							</xsd:sequence>	
+						</xsd:complexType>
+					</xsd:element>
+			</xsd:sequence>	
+		</xsd:complexType>
+		</xsd:element>
+	</xsd:sequence>	
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
